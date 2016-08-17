@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Routine from './components/Routine.js';
 require('./styles/site.css');
-var $ = require('jquery');
+let $ = require('jquery');
 global.jQuery = $;
 require('bootstrap/dist/css/bootstrap.min.css');
 require('bootstrap');
